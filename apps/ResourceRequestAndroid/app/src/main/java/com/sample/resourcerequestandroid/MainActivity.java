@@ -74,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
                             //String responseText = response.getResponseText();
                             String errorMsg = response.getErrorMsg();
                             Log.d("InvokeFail", errorMsg);
-                            updateTextView("Failed to Invoke Adapter Procedure\n" + errorMsg);
+                            //updateTextView("Failed to Invoke Adapter Procedure\n" + errorMsg);
+				updateTextView("Failed to Invoke Adapter Procedure\n" + errorMsg + "===" + response.toString());
                         }
                     });
 
