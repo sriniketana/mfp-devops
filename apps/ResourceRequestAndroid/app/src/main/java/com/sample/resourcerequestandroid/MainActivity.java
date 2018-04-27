@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    URI adapterPath = new URI("/adapters/testadapter/resource/" + resource.getText());
+                    URI adapterPath = new URI("/adapters/javaAdapter/resource/" + resource.getText());
 
                     WLResourceRequest request = new WLResourceRequest(adapterPath, WLResourceRequest.GET);
                     // Query Parameters
