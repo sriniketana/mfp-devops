@@ -182,7 +182,7 @@ public class JavaAdapterResource {
 	@Produces(MediaType.TEXT_PLAIN)
 	@OAuthSecurity(scope = "myCustomScope")
 	public String customScopeProtected() {
-		return "Hello from a resource protected by a custom scope!";
+		return "Hello there from a resource protected by a custom scope!";
 	}
 
 
